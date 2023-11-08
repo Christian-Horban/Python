@@ -1,0 +1,21 @@
+Exercise 1.4: File Handling in Python
+Learning Goals
+
+●	Use files to store and retrieve data in Python
+
+Reflection Questions
+
+1.	Why is file storage important when you’re using Python? What would happen if you didn’t store local files?
+    a.	File storage is essential in Python programming as it allows for the preservation and retrieval of data. Without local file storage, any data generated or manipulated during a Python session would be lost once the session ends. This makes persistent storage crucial for maintaining records, ensuring data continuity, and facilitating data sharing across different sessions or applications.
+
+2.	In this Exercise you learned about the pickling process with the pickle.dump() method. What are pickles? In which situations would you choose to use pickles and why? 
+    a.	In Python, 'pickles' refer to the process of serializing and deserializing objects. Serialization with pickle.dump() involves converting a Python object into a byte stream, which can then be saved to a file. Pickling is particularly useful for saving complex data types, such as lists or class instances, which can't be easily stored in text files. Its use is ideal in scenarios where there is a need to easily save and restore the state of an object, or when transferring Python objects between different Python processes.
+
+3.	In Python, what function do you use to find out which directory you’re currently in? What if you wanted to change your current working directory?
+    a.	The current working directory can be identified using the os.getcwd() function. To change the working directory, the os.chdir() function is used.
+
+4.	Imagine you’re working on a Python script and are worried there may be an error in a block of code. How would you approach the situation to prevent the entire script from terminating due to an error?
+    a.	When anticipating potential errors in a Python script, employing try-except blocks is a good approach. This involves encapsulating the code that might cause an error within a try block. If an error occurs, the control is passed to the except block, allowing for graceful handling of the error and preventing the entire script from terminating abruptly.
+
+5.	You’re now more than halfway through Achievement 1! Take a moment to reflect on your learning in the course so far. How is it going? What’s something you’re proud of so far? Is there something you’re struggling with? What do you need more practice with? Feel free to use these notes to guide your next mentor call. 
+    a.	Reaching the midpoint of Achievement 1 is on its own, a significant milestone in my Python learning path. My primary objective during this course was to deepen my understanding of Python and this hands-on experience has been crucial for grasping more advanced aspects of Python programming. While I continue to learn the complexities of Python, I am excited to continue refining my skills and aligning them with the industry's best practices. This progress is setting a solid foundation for my future endeavors in Python. 
