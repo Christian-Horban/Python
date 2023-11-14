@@ -1,0 +1,47 @@
+Exercise 2.2: Django Project Set Up
+
+Learning Goals
+
+●	Describe the basic structure of a Django project 
+●	Summarize the difference between projects and apps
+●	Create a Django project and run it locally
+●	Create a superuser for a Django web application
+
+Reflection Questions
+
+1.	Suppose you’re in an interview. The interviewer gives you their company’s website as an example, asking you to convert the website and its different parts into Django terms. How would you proceed? For this question, you can think about your dream company and look at their website for reference. 
+(Hint: In the Exercise, you saw the example of the CareerFoundry website in the Project and Apps section.)
+
+I based this breakdown off of Nike’s website
+
+    •	Homepage (Landing Page): This would be managed by a 'home' app in Django, where the homepage template displays featured products, news, or promotions.
+    •	Product Catalog: Each product category (e.g., Shoes, Apparel, Equipment) can be a model within a 'products' app, with detailed views for individual items.
+    •	User Accounts: A 'users' or 'accounts' app, using Django's authentication system for user registration, login, and profile management.
+    •	Shopping Cart and Checkout: Handled by an 'order' app, with models for the shopping cart and order processing.
+    •	Search Functionality: A 'search' app could manage the search features, interfacing with product models to return search results.
+    •	Product Reviews: A 'reviews' app, where each review is tied to a product model, allowing users to submit and view reviews.
+    •	Static Pages (About, Terms, Contact): Managed by a 'static_pages' app, with each page being an individual template.
+    •	Blog or News Section: A 'blog' or 'news' app, with articles or posts as instances of a model, showcasing latest news or features.
+
+2.	In your own words, describe the steps you would take to deploy a basic Django application locally on your system. 
+
+I would follow this general outline when deploying a basic Django app.
+
+    •	Create Project: Use django-admin startproject myproject to create a new Django project.
+    •	Develop App: Develop a Django app using python manage.py startapp myapp.
+    •	Configure Settings: Update settings.py to include your app and configure database settings.
+    •	Define Models: Create models in your app’s models.py.
+    •	Migrate Database: Run python manage.py migrate to apply database migrations.
+    •	Create Superuser: Use python manage.py createsuperuser to create an admin user.
+    •	Run Server: Start the local server with python manage.py runserver and test the app.
+
+
+3.	Do some research about the Django admin site and write down how you’d use it during your web application development.
+
+After some research I made a small list of various tasks you could use the admin portal for.
+
+    •	Manage Data: Use the admin site to add, delete, and edit data in your models.
+    •	User Management: Administer user accounts and permissions.
+    •	Customization: Customize the admin interface to better suit the data models of your application.
+    •	Debugging: Use it as a tool for quick debugging and checking how data is being stored.
+    •	Quick Prototyping: Rapidly prototype admin interfaces for your models to test their functionality.
