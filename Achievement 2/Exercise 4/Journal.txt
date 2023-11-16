@@ -1,0 +1,30 @@
+Exercise 2.4: Django Views and Templates
+
+Learning Goals
+
+●	Summarize the process of creating views, templates, and URLs 
+●	Explain how the “V” and “T” parts of MVT architecture work
+●	Create a frontend page for your web application
+
+Reflection Questions
+
+1.	Do some research on Django views. In your own words, use an example to explain how Django views work.
+    a.	Django views act as a bridge between the model and the template, handling the business logic of an application. For example, a view in a blog application could fetch data from a Post model and pass it to a template to display a list of blog posts.
+
+2.	Imagine you’re working on a Django web development project, and you anticipate that you’ll have to reuse lots of code in various parts of the project. In this scenario, will you use Django function-based views or class-based views, and why?
+    a.	In a project requiring extensive code reuse, class-based views in Django are a better choice. They offer structured organization and are easily extendable, which simplifies reusing common patterns and behaviors across different views.
+
+3.	 Read Django’s documentation on the Django template language and make some notes on its basics.
+    The Django template language is designed for defining the structure of a web page, allowing dynamic data insertion and control structures like loops and conditionals. It separates presentation from Python code, making templates easy to read and maintain.
+
+    Noteworthy:
+        1.	Balances power and ease, comfortable for those familiar with HTML.
+        2.	Meant for presentation, not program logic.
+        3.	Text files that can generate text-based formats like HTML, XML, CSV.
+        4.	Contain variables and tags for dynamic content and logic.
+        5.	Syntax: {{ variable }}.
+        6.	Replaced with values upon template evaluation.
+        7.	Alphanumeric and underscores, but not starting with an underscore or number.
+        8.	Modify variables for display.
+        9.	Syntax: {{ variable|filter }}, e.g., {{ name|lower }} for lowercase.
+        10.	Can be chained for complex transformations.
