@@ -1,0 +1,25 @@
+Exercise 2.5: Django MVT Revisited
+
+Learning Goals
+
+●	Add images to the model and display them on the frontend of your application
+●	Create complex views with access to the model
+●	Display records with views and templates
+
+
+Reflection Questions
+
+1.	In your own words, explain Django static files and how Django handles them.
+    a.	Django static files are resources like CSS, JavaScript, and images that don't change often and are used to enhance the appearance and functionality of web pages. Django manages these files by collecting them from various app directories into a single location, typically defined in settings as STATIC_ROOT, making them accessible to the web server for efficient delivery to clients.
+
+2.	Look up the following two Django packages on Django’s official documentation and/or other trusted sources. Write a brief description of each.
+
+
+Package	Description
+ListView /	This is a Django generic view that abstracts the process of displaying a list of objects. It allows for easy implementation of views that need to display a collection of items from the database, such as a list of blog posts or user profiles, handling common tasks like pagination automatically.
+DetailView	/ DetailView is a Django generic view tailored for displaying detailed information about a specific object. It simplifies the process of creating views that focus on a single record from the database, like an individual blog post or product detail page, handling the retrieval and rendering of the object based on a provided identifier.
+
+
+
+3.	You’re now more than halfway through Achievement 2! Take a moment to reflect on your learning in the course so far. How is it going? What’s something you’re proud of so far? Is there something you’re struggling with? What do you need more practice with? You can use these notes to guide your next mentor call. 
+    a.	So far, the course has been rewarding, providing me with a deeper understanding of Django's capabilities and web development principles. I am particularly proud of how I've managed to grasp complex concepts like Django's ORM and MVC architecture. However, I find myself needing more practice with Django's form handling and database migrations.
