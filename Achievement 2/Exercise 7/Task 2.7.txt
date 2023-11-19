@@ -1,0 +1,61 @@
+Search Criteria:
+
+Recipe Name:
+
+Users can search for recipes by entering either the exact recipe name or a partial match of the recipe name.
+    For example, searching for "tea" should return all recipes with names containing "tea."
+
+Ingredients:
+
+Users can search for recipes based on ingredients.
+They can enter the name of an ingredient, and the search should return recipes that contain that ingredient.
+Partial matches should also be considered. For instance, searching for "Tomato" should return recipes containing ingredients like "Tomato Sauce".
+
+Cooking Time:
+
+Users can search for recipes based on the cooking time.
+They can enter a specific cooking time (e.g., "30 minutes" ).
+The search should return recipes that have a cooking time that matches the specified time.
+
+Difficulty:
+
+Users can search for recipes based on difficulty level.
+They can enter the exact difficulty level (e.g., "Easy," "Medium," etc.).
+The search should return recipes that match the specified difficulty level.
+
+Format of Output:
+
+The search results should be displayed in a user-friendly format.
+Each search result should include:
+Recipe Name: Display the name of the recipe.
+Short Description: Provide a brief description or summary of the recipe.
+If there are multiple search results, list them in a visually appealing way, such as in a grid or a list.
+Include pagination if there are many search results to ensure usability.
+Provide clear and concise information to help users quickly identify and select recipes of interest.
+
+
+Data Analysis
+
+Bar
+x-axis: Difficulty
+y-axis: Number of recipes
+information provided 
+
+
+Pie
+no axis labels
+information provided 
+
+Line
+x-axis: cooking time
+information provided 
+
+
+
+Execution flow
+
+The user will land on the login screen and log in with their credentials. From here they will be redirected the home page and can either click to see the recipes overview page, see all recipes, or search for a recipe based on the outlined criteria above.
+If the user were to navigate to the overview page they would see a list of recipes, and a series of charts showing various recipe information, distributed by things like difficulty, number of ingrediants needed, or cooking time. They can then either search for, or navigate
+to see more information on the desired recipe. 
+
+
