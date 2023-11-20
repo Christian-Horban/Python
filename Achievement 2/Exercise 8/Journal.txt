@@ -1,0 +1,24 @@
+Exercise 2.8: Deploying a Django Project
+Learning Goals
+
+●	Enhance user experience and look and feel of your web application using CSS and JS
+●	Deploy your Django web application on a web server 
+●	Curate project deliverables for your portfolio
+
+Reflection Questions
+
+1.	Explain how you can use CSS and JavaScript in your Django web application.
+    a.	In a Django web application, CSS and JavaScript can be integrated by placing them in static files. These files are then linked in the HTML templates using Django's {% static %} template tag, allowing for styling and interactive features.
+
+2.	In your own words, explain the steps you’d need to take to deploy your Django web application. 
+    a.	To deploy a Django web application, first ensure your app is production-ready with settings configured for security and performance. Then, choose a hosting platform, set up a database, configure a web server like Gunicorn or uWSGI. Finally, deploy your code, often using tools like Git and services like Heroku, AWS, or DigitalOcean.
+
+3.	You’ve now finished Achievement 2 and, with it, the whole course! Take a moment to reflect on your learning:
+    a.	What went well during this Achievement? 
+        i.	I think the implementation of complex concepts and functions went very well for me during this project. The lessons were well outlined and easy to understand and follow along with. 
+    b.	What’s something you’re proud of? 
+        i.	I am proud of my final project, I had some hiccups along the way but ultimately I think I was able to fully digest the project content and create something functional and practical for my portfolio. 
+    c.	What was the most challenging aspect of this Achievement? 
+        i.	By far the most challenging aspect of this project was the level of complexity in some of the different lessons. There was so much information that needed to be understood in order to meet each steps deliverables that I needed to reread and revisit information from previous lessons in order to get to the final project. By the end though, I feel like I have a solid understanding of the curriculum.
+    d.	Did this Achievement meet your expectations? Did it give you the confidence to start working with your new Django skills?
+        i.	I was more than I thought it would be to be honest! After completing the full stack course, I did not expect this course to be so demanding! I am glad it was though, now at the end I am happy to say I learned a lot that I think will help me along my journey.
